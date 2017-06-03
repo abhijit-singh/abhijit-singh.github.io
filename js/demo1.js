@@ -35,6 +35,33 @@
 		}
 	}
 
+
+	intro = document.getElementById('intro');
+	intro.addEventListener('click', function() {
+		window.scrollTo(0, document.getElementById('0').offsetTop);
+		toggleOverlay();
+	});
+	edu = document.getElementById('edu');
+	edu.addEventListener('click', function() {
+		window.scrollTo(0, document.getElementById('3').offsetTop);
+		toggleOverlay();
+	});
+	wid = document.getElementById('wid');
+	wid.addEventListener('click', function() {
+		window.scrollTo(0, document.getElementById('5').offsetTop);
+		toggleOverlay();
+	});
+	wiv = document.getElementById('wiv');
+	wiv.addEventListener('click', function() {
+		window.scrollTo(0, document.getElementById('1').offsetTop);
+		toggleOverlay();
+	});
+	sah = document.getElementById('sah');
+	sah.addEventListener('click', function() {
+		window.scrollTo(0, document.getElementById('6').offsetTop);
+		toggleOverlay();
+	});
+
 	triggerBttn.addEventListener( 'click', toggleOverlay );
 	closeBttn.addEventListener( 'click', toggleOverlay );
 })();
