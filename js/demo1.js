@@ -62,6 +62,11 @@
 		toggleOverlay();
 	});
 
+	next = document.getElementById('next');
+	next.addEventListener('click', function() {
+		window.scrollTo(0, document.getElementById('2').offsetTop);
+	});
+
 	triggerBttn.addEventListener( 'click', toggleOverlay );
 	closeBttn.addEventListener( 'click', toggleOverlay );
 })();
