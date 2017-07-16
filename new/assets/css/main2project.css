@@ -2967,14 +2967,33 @@
 			-ms-flex-direction: row;
 			flex-direction: row;
 			background-color: #2e3450;
+			height: auto;
+			padding:25px 0;
 		}
 
 			.spotlights > section > .image {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				-moz-justify-content: center;
+				-webkit-justify-content: center;
+				-ms-justify-content: center;
+				justify-content: center;
+				-moz-align-items: center;
+				-webkit-align-items: center;
+				-ms-align-items: center;
+				align-items: center;
+				/*padding: 2em 3em 0.1em 3em ;
 				background-position: center center;
 				background-size: cover;
 				border-radius: 0;
 				display: block;
-				position: relative;
+				position: relative;*/
 				width: 30%;
 			}
 
@@ -3423,7 +3442,7 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 620px;
+		height: 400px;
 		margin-bottom: -3.25em;
 		/*max-height: 32em;
 		min-height: 22em;*/

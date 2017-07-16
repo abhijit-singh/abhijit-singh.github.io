@@ -2599,7 +2599,7 @@
 		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
 		border: 0;
-		border-radius: 24px;
+		border-radius: 30px;
 		box-shadow: inset 0 0 0 2px #ffffff;
 		color: #ffffff;
 		cursor: pointer;
@@ -2956,8 +2956,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.85) 50%, 
 		@media screen and (max-width: 1440px) {
 
 			.tiles article {
-				padding: 4em 3em 0.6
-				em 3em ;
+				padding: 4em 3em 0.6em 3em ;
 				height: 30vh;
 				max-height: 30em;
 				min-height: 20em;
