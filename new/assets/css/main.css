@@ -3452,8 +3452,8 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.85) 50%, 
 		@media screen and (max-width: 480px) {
 
 			#header .logo span {
-				display: none;
-			}
+/*				display: none;
+*/			}
 
 			#header nav a[href="#menu"] {
 				overflow: hidden;
@@ -3695,6 +3695,31 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.85) 50%, 
 				#banner.majorb {
 					padding: 8em 0 4em 0 ;
 				}
+
+				header.majorb > h3 {
+					font-size: 1em;
+					margin-top: -10px;
+				}
+
+				#checkwork{
+					margin-right: 13em;
+				}
+				#orrr{
+					padding-left: 10px;
+					padding-right: 2px;
+					padding-top: 10px;
+				}
+				#rejume{
+					padding-top: 10px;
+				}
+
+		}
+
+		@media screen and (max-width: 400px) {
+				#checkwork{
+					margin-right: 7em;
+				}
+
 
 		}
 
