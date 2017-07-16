@@ -3696,7 +3696,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.85) 50%, 
 					padding: 8em 0 4em 0 ;
 				}
 
-				header.majorb > h3 {
+				#header.majorb > h3 {
 					font-size: 1em;
 					margin-top: -10px;
 				}
