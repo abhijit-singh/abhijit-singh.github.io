@@ -4,6 +4,12 @@
 
 
 
+
+.twb{
+	padding: 4em 3em;
+}
+
+
 @media screen and (min-width: 1280px) {
 #uvr{
 	width: 100%;
@@ -91,7 +97,7 @@
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #2e3450;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -149,3 +155,23 @@
 			}
 
 		}
+
+
+
+
+/*Trabug*/
+
+
+.pns{
+	padding:3em 2em 3em 2em;
+	margin
+}
+
+#package{
+	padding: 4em 3em 3em 4em;
+	max-width: 800px;
+	margin:	auto;
+}
+
+
+
