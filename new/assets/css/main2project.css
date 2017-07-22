@@ -3430,7 +3430,14 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		/*background: url("../../images/banner.jpg");*/
+		background: rgba(46,52,80,1);
+background: -moz-linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, rgba(253,115,108,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(26%, rgba(46,52,80,1)), color-stop(57%, rgba(133,78,92,1)), color-stop(100%, rgba(253,115,108,1)));
+background: -webkit-linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, rgba(253,115,108,1) 100%);
+background: -o-linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, rgba(253,115,108,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, rgba(253,115,108,1) 100%);
+background: linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, rgba(253,115,108,1) 100%);
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3463,7 +3470,13 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #242943;
+			background: rgba(46,52,80,1);
+background: -moz-linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, rgba(253,115,108,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(26%, rgba(46,52,80,1)), color-stop(57%, rgba(133,78,92,1)), color-stop(100%, rgba(253,115,108,1)));
+background: -webkit-linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, rgba(253,115,108,1) 100%);
+background: -o-linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, rgba(253,115,108,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, rgba(253,115,108,1) 100%);
+background: linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, rgba(253,115,108,1) 100%);
 			content: '';
 			display: block;
 			height: 100%;
