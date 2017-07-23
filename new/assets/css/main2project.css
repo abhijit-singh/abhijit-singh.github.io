@@ -3897,7 +3897,7 @@ background: linear-gradient(45deg, rgba(46,52,80,1) 26%, rgba(133,78,92,1) 57%, 
 			overflow: auto;
 			text-align: center;
 			visibility: hidden;
-			width: 18em;
+			width: 20em;
 		}
 
 			#menu .inner > :first-child {

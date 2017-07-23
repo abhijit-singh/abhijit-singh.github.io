@@ -3567,7 +3567,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.85) 50%, 
 				-ms-align-items: center;
 				align-items: center;
 				margin: 0 0 1.2em 0;
-				max-width: 600px;
+				max-width: 750px;
 			}
 
 
@@ -3968,7 +3968,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.85) 50%, 
 			overflow: auto;
 			text-align: center;
 			visibility: hidden;
-			width: 18em;
+			width: 20em;
 		}
 
 			#menu .inner > :first-child {
