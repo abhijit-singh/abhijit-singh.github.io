@@ -3717,9 +3717,9 @@ body,#wrap-outer,#wrap,#search-overlay,#top-wrap,#main,.separator h4, .carousel-
 }
 
 /* Selected Text Bg Color */   
-::selection { background: #F0E8DF; }
-::-moz-selection { background: #F0E8DF; }
-::-webkit-selection { background: #F0E8DF; }
+::selection { background: #f0f9f8; }
+::-moz-selection { background: #f0f9f8; }
+::-webkit-selection { background: #f0f9f8; }
 
 /* Border Color */ 
 body.ux-bordered,.bordered-top, .bordered-bottom 
