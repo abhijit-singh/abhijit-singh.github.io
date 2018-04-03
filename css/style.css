@@ -4537,7 +4537,7 @@ blockquote em, blockquote i, blockquote cite {
   body.page.responsive-ux .title-wrap, 
   body.error404.responsive-ux #content_wrap,
   .responsive-ux .sticky_column {
-    padding-bottom: 60px;
+    padding-bottom: 120px;
   }
   .responsive-ux .archive-title.title-wrap {
     padding-bottom: 90px;
