@@ -4411,7 +4411,7 @@ blockquote em, blockquote i, blockquote cite {
   .responsive-ux .top-slider .carousel-des-wrap-inn { display: none; }
 
   /* Header */
-  .responsive-ux #logo img { max-width:120px; height:auto; } 
+  .responsive-ux #logo img { max-width:60px; height:auto; } 
   .responsive-ux #header .blog-unit-meta { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width: 90%; }
 
   /* Navi */
