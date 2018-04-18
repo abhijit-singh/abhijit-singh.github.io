@@ -4245,6 +4245,10 @@ button, input[type="submit"]
   font-size:14px; letter-spacing: 4px; padding: 5px 0; 
 }
 
+
+
+
+
 /*----------------------------------------------- 
 
          7. Other Elements
@@ -4379,6 +4383,10 @@ blockquote em, blockquote i, blockquote cite {
   /* Custom ux 
 
   general space */
+
+.ux-portfolio-template-intro h1{
+  padding-top: 30px;
+}
 
   
   /* Content */
