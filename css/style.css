@@ -4131,7 +4131,7 @@ h1,h2,h3,h4,h5,h6,body.single .title-wrap-tit,.title-wrap-h1, .archive-grid-item
 /* Content Page Title */ 
 @media (min-width: 1000px){
 .sidebar-page-title{
-  font-size: 42px !important;
+  font-size: 48px !important;
 }
 }
 
