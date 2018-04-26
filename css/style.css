@@ -4897,7 +4897,7 @@ blockquote em, blockquote i, blockquote cite {
   body.single .quote-entry{
 
   margin-top: 120px;
-  margin-bottom: 200px;
+  padding-bottom: 120px;
   }
 
 
