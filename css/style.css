@@ -5027,7 +5027,7 @@ blockquote em, blockquote i, blockquote cite {
 
 
 .don-quixote {
-  background-image: url(img/don-quixote.png);
+  background-image: url(//img/don-quixote.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: contain;
