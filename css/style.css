@@ -5012,3 +5012,11 @@ blockquote em, blockquote i, blockquote cite {
   }
 
 }
+
+
+.quote-top-img {
+    background-image: url(img/quote-top.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
