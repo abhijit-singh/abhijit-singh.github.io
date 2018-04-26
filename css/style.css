@@ -4893,6 +4893,15 @@ blockquote em, blockquote i, blockquote cite {
   .gallery-link {
     margin-bottom: 60px;
   }
+
+  body.single .quote-entry{
+
+  margin-top: 120px;
+  margin-bottom: 200px;
+  }
+
+
+
   body.single .entry,
   body.single .blog-unit-quote,
   body.single .blog-unit-link,
