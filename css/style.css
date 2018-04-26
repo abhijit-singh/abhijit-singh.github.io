@@ -5020,3 +5020,7 @@ blockquote em, blockquote i, blockquote cite {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.quote{
+  font-size: 3vw;
+}
