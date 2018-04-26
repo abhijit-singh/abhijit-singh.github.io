@@ -5021,6 +5021,6 @@ blockquote em, blockquote i, blockquote cite {
     background-repeat: no-repeat;
 }
 
-.quote h3{
-  font-size: 3vw;
+.quote {
+  font-size: 3vw !important;
 }
