@@ -5043,7 +5043,7 @@ blockquote em, blockquote i, blockquote cite {
 }
 
 @media (min-width: 765px) and (max-width:1000px){
-.home-banner-tab {
+.home-banner {
   background-image: : url(../img/tab-banner.png);
   background-position: top center;
   background-repeat: no-repeat;
