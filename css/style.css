@@ -5043,7 +5043,8 @@ blockquote em, blockquote i, blockquote cite {
 
 @media (max-width:760px){
 .home-work-anchor{
- margin-top: -25%; 
+ margin-top: -25%;
+ margin-bottom: 10%; 
 }
 
 .ux-portfolio-template-intro.container {
