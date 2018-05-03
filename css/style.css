@@ -5015,7 +5015,7 @@ blockquote em, blockquote i, blockquote cite {
 
 
 .quote-top-img {
-    background-image: url(img/quote-top.png);
+    background-image: url(../img/quote-top.png);
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -5036,7 +5036,7 @@ blockquote em, blockquote i, blockquote cite {
 
 @media (max-width:760px){
 .home-banner-mob {
-  background-image: : url(img/mob-banner.png);
+  background-image: : url(../img/mob-banner.png);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -5044,7 +5044,7 @@ blockquote em, blockquote i, blockquote cite {
 
 @media (min-width: 765px) and (max-width:1000px){
 .home-banner-tab {
-  background-image: : url(img/tab-banner.png);
+  background-image: : url(../img/tab-banner.png);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -5052,7 +5052,7 @@ blockquote em, blockquote i, blockquote cite {
 
 @media (min-width: 1001px) and (max-width:1440px){
 .home-banner {
-  background-image: : url(img/bg-home-abhijit.png);
+  background-image: : url(../img/bg-home-abhijit.png);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -5061,7 +5061,7 @@ blockquote em, blockquote i, blockquote cite {
 
 @media (min-width: 1441px){
 .home-banner {
-  background-image: : url(img/mon-banner.png);
+  background-image: : url(../img/mon-banner.png);
   background-position: top center;
   background-repeat: no-repeat;
 }
