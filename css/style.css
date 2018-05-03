@@ -4000,7 +4000,7 @@ h1,h2,h3,h4,h5,h6,body.single .title-wrap-tit,.title-wrap-h1, .archive-grid-item
 @media (min-width: 990px) and (max-width: 1099px) {
   .home-intro-h1{
     width: 60%;
-    font-style: 1.3em !important;
+    font-size: 1.3em;
 }
 }
 
