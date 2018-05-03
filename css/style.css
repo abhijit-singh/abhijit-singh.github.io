@@ -5036,7 +5036,7 @@ blockquote em, blockquote i, blockquote cite {
 
 @media (max-width:760px){
 .home-banner-mob {
-  background: : url(../img/mob-banner.png);
+  background: url(../img/mob-banner.png);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -5044,7 +5044,7 @@ blockquote em, blockquote i, blockquote cite {
 
 @media (min-width: 765px) and (max-width:1000px){
 .home-banner {
-  background: : url(../img/tab-banner.png);
+  background: url(../img/tab-banner.png);
   background-position: top center;
   background-repeat: no-repeat;
 }
