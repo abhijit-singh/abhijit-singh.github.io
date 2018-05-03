@@ -5050,19 +5050,19 @@ blockquote em, blockquote i, blockquote cite {
 }
 }
 
-@media (min-width: 1001px) and (max-width:1440px){
+@media (min-width: 1001px) and (max-width:1441px){
 .home-banner {
-  background-image: : url(../img/bg-home-abhijit.png);
-  background-position: top center;
-  background-repeat: no-repeat;
+    background: url(img/bg-home-abhijit.png);
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 }
 
 
-@media (min-width: 1441px){
+@media (min-width: 1442px){
 .home-banner {
-  background-image: : url(../img/mon-banner.png);
-  background-position: top center;
-  background-repeat: no-repeat;
+    background: url(img/mon-banner.png);
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 }
