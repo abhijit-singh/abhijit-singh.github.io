@@ -5052,7 +5052,7 @@ blockquote em, blockquote i, blockquote cite {
 
 @media (min-width: 1001px) and (max-width:1441px){
 .home-banner {
-    background: url(img/bg-home-abhijit.png);
+    background: url(../img/bg-home-abhijit.png);
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -5061,7 +5061,7 @@ blockquote em, blockquote i, blockquote cite {
 
 @media (min-width: 1442px){
 .home-banner {
-    background: url(img/mon-banner.png);
+    background: url(../img/mon-banner.png);
     background-position: top center;
     background-repeat: no-repeat;
 }
