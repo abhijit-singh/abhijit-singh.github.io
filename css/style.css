@@ -5048,6 +5048,10 @@ blockquote em, blockquote i, blockquote cite {
   background-position: top center;
   background-repeat: no-repeat;
 }
+.home-work-anchor{
+  margin-bottom: 16%;
+}
+
 }
 
 @media (min-width: 1001px) and (max-width:1441px){
