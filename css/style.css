@@ -5088,6 +5088,9 @@ p.home-intro-h1 {
     background-repeat: no-repeat;
     padding-top: 30px !important;
 }
+p.home-intro-h1 {
+  margin-bottom: 30px;
+}
 }
 
 
