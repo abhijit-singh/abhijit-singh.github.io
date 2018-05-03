@@ -3997,6 +3997,11 @@ h1,h2,h3,h4,h5,h6,body.single .title-wrap-tit,.title-wrap-h1, .archive-grid-item
 
 }
 
+@media (min-width: 990px) and (max-width: 1099px) {
+  .home-intro-h1{
+    width: 60%;
+}
+}
 /* Homepage anchor to work check out some*/
 .home-work-anchor{
   margin-bottom: 5%;
