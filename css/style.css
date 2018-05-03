@@ -5035,9 +5035,9 @@ blockquote em, blockquote i, blockquote cite {
 
 
 @media (max-width:760px){
-.home-banner-mob {
+.ux-portfolio-template-intro .container {
   background: url(../img/mob-banner.png);
-  background-position: top center;
+  background-position: bottom center;
   background-repeat: no-repeat;
 }
 }
