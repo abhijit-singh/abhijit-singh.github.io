@@ -5051,7 +5051,9 @@ blockquote em, blockquote i, blockquote cite {
 .home-work-anchor{
   margin-bottom: 16% !important;
 }
-
+.home-intro-h1 {
+  margin-bottom: 0px !important;
+}
 }
 
 @media (min-width: 1001px) and (max-width:1441px){
