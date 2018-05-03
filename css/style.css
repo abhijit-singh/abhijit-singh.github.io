@@ -5049,7 +5049,7 @@ blockquote em, blockquote i, blockquote cite {
   background-repeat: no-repeat;
 }
 .home-work-anchor{
-  margin-bottom: 16%;
+  margin-bottom: 16% !important;
 }
 
 }
