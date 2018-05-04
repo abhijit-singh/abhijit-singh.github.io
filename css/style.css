@@ -5051,6 +5051,7 @@ blockquote em, blockquote i, blockquote cite {
   background: url(../img/mob-banner.png);
   background-position: bottom center;
   background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .home-banner{
