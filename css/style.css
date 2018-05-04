@@ -5074,6 +5074,12 @@ p.home-intro-h1 {
 }
 }
 
+@media (min-width: 430px) and (max-width:580px){
+.ux-portfolio-template-intro.container {
+  background-size: 145%;
+}
+}
+
 @media (min-width: 765px) and (max-width:1000px){
 .home-banner {
   background: url(../img/tab-banner.png);
