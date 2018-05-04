@@ -5076,7 +5076,7 @@ p.home-intro-h1 {
 
 @media (min-width: 430px) and (max-width:580px){
 .ux-portfolio-template-intro.container {
-  background-size: 145%;
+  background-size: 100% !important;
 }
 }
 
