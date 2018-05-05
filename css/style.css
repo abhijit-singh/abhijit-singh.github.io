@@ -3990,7 +3990,7 @@ input, textarea, select, button, legend, input[type="submit"], button
 /* Mian Heading font */
 h1,h2,h3,h4,h5,h6,body.single .title-wrap-tit,.title-wrap-h1, .archive-grid-item-tit,.title-wrap-meta-a,.archive-grid-item-meta-item 
 {
-  font-family: 'product_sansregular', PT Sans, serif; font-weight: 700; letter-spacing: 0.5px; 
+  font-family: 'product_sansbold', PT Sans, serif; font-weight: 700; letter-spacing: 0.5px; 
 }
 
 
