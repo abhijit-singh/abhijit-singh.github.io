@@ -5138,7 +5138,9 @@ p.home-intro-h1 {
   width: 80%
 }
 .content-footer-home{
-  
+    background: url(img/footer-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
 }
 .footer-home-color{
   background-color: #F9FAFB;
@@ -5156,7 +5158,9 @@ p.home-intro-h1 {
   width: 80%
 }
 .content-footer-home{
-
+    background: url(img/mon-footer-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
 }
 .footer-home-color{
   background-color: #F9FAFB;
