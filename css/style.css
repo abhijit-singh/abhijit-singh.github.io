@@ -3802,12 +3802,12 @@ body.ux-bordered,.bordered-top, .bordered-bottom
 }
 .post_social:before, .post_social:after,.title-ux.line_under_over,.gallery-wrap-sidebar .entry, .social-share 
 { 
-  border-color: #313139; 
+  border-color: #3e4a5d; 
 } 
 .team-item-con,.ux-btn:before,.title-ux.line_both_sides:before,.title-ux.line_both_sides:after,.galleria-info,#float-bar-triggler,.float-bar-inn,.short_line:after, 
 .separator_inn.bg- ,.countdown_section 
 {
-  background-color: #313139;
+  background-color: #3e4a5d;
 }
     
 /* Content Page - Content */
