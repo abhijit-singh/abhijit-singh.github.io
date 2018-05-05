@@ -4010,7 +4010,8 @@ h1,h2,h3,h4,h5,h6,body.single .title-wrap-tit,.title-wrap-h1, .archive-grid-item
   color: #6a7686;
 }
 
-.home-intro-h1 strong{
+.home-intro-h1 span{
+  font-family: product_sansbold;
   color: #09b48e;
 }
 
