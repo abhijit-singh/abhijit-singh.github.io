@@ -5146,6 +5146,9 @@ p.home-intro-h1 {
     background-position: top center;
     background-repeat: no-repeat;
 }
+.home-footer{
+  width: 80%
+}
 }
 
 .menu-home-mobile{
