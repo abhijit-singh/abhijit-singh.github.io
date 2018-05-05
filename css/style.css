@@ -56,6 +56,26 @@ Author URI: http://www.uiueux.com
 */
 
 
+@font-face {
+    font-family: 'product_sansregular';
+    src: url('product_sans_regular.woff2') format('woff2'),
+         url('product_sans_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'product_sansbold';
+    src: url('product_sans_bold.woff2') format('woff2'),
+         url('product_sans_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 
