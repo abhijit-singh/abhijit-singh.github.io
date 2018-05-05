@@ -3837,19 +3837,19 @@ h3#reply-title small, #comments .nav-tabs li.active h3#reply-title .logged,#comm
 /* Gallery Post Property Title */
 .gallery-info-property-tit 
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Gallery Post Property Content */ 
 .gallery-info-property-con,.gallery-info-property-con a:hover 
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Gallery Post Link Button */
 .gallery-link-a,.gallery-link-a:hover 
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Previous & Next */
