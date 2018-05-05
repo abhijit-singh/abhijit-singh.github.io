@@ -3929,7 +3929,7 @@ h3#reply-title small, #comments .nav-tabs li.active h3#reply-title .logged,#comm
 /* BG Mouseover */
 .ux-btn:hover,button:hover, input[type="submit"]:hover,.woocommerce button.button.alt:hover,.woocommerce-page #content input.button:hover,.woocommerce a.button.alt:hover
 { 
-  background-color: #313139; border-color: #313139;
+  background-color: #3e4a5d; border-color: #3e4a5d;
 }
 
 
