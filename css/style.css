@@ -5163,7 +5163,7 @@ p.home-intro-h1 {
     background-repeat: no-repeat;
 }
 .footer-home-color{
-  background-color: #F9FAFB;
+  background-color: #F9FAFB !important;
 }
 }
 
