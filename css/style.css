@@ -3880,25 +3880,25 @@ h3#reply-title small, #comments .nav-tabs li.active h3#reply-title .logged,#comm
 /* Filter Text by Default */
 .filters-a 
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Filter Text Focused */
 .filters-a:hover,.active > .filters-a
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Load More Button */
 .tw-style-a.ux-btn,.tw-style-a.ux-btn:hover
 { 
-  color: #313139;
+  color: #3e4a5d3e4a5d;
 }
 
 /* Portfolio List - Title for Item */
 .grid-item-tit,.grid-item-tit-a:hover
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Portfolio List - Tag for Item */
