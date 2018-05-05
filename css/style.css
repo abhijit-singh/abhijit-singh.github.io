@@ -5172,6 +5172,9 @@ p.home-intro-h1 {
 .entry h3{
   font-size: 1.4vw !important;
 }
+.width-limit{
+  width: 70%;
+}
 }
 
 .menu-home-mobile{
