@@ -3740,9 +3740,9 @@ body,#wrap-outer,#wrap,#search-overlay,#top-wrap,#main,.separator h4, .carousel-
 }
 
 /* Selected Text Bg Color */   
-::selection { background: #f0f9f8; }
-::-moz-selection { background: #f0f9f8; }
-::-webkit-selection { background: #f0f9f8; }
+::selection { background: #d1f2e7; }
+::-moz-selection { background: #d1f2e7; }
+::-webkit-selection { background: #d1f2e7; }
 
 /* Border Color */ 
 body.ux-bordered,.bordered-top, .bordered-bottom 
