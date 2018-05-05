@@ -3892,7 +3892,7 @@ h3#reply-title small, #comments .nav-tabs li.active h3#reply-title .logged,#comm
 /* Load More Button */
 .tw-style-a.ux-btn,.tw-style-a.ux-btn:hover
 { 
-  color: #3e4a5d3e4a5d;
+  color: #3e4a5d;
 }
 
 /* Portfolio List - Title for Item */
@@ -3904,7 +3904,7 @@ h3#reply-title small, #comments .nav-tabs li.active h3#reply-title .logged,#comm
 /* Portfolio List - Tag for Item */
 .grid-item-cate-a
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Portfolio List - Mask for Item */
@@ -3917,7 +3917,7 @@ h3#reply-title small, #comments .nav-tabs li.active h3#reply-title .logged,#comm
 /* Text & Border */
 .ux-btn, button, input[type="submit"] 
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Text Mouseover */
