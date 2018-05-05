@@ -3771,7 +3771,7 @@ body.ux-bordered,.bordered-top, .bordered-bottom
 .light-logo.header-scrolled #header .socialmeida-a, 
 .light-logo.header-scrolled #navi_wrap > ul > li > a 
 {
- /* color: #313139;*/ 
+ /* color: #3e4a5d;*/ 
 } 
 
 /* Menu on Header Light */  
@@ -3965,7 +3965,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 /* Footer Text Color */
 .footer-bar,.footer-bar a,.copyright, .copyright a,.footer-info,.footer-info a,#footer .logo-h1
 { 
-  color: #313139; 
+  color: #3e4a5d; 
 }
 
 /* Footer Bg Color */
