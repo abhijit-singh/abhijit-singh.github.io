@@ -5165,6 +5165,9 @@ p.home-intro-h1 {
 .footer-home-color{
   background-color: #F9FAFB !important;
 }
+.entry h3{
+  font-size: 1.4vw !important;
+}
 }
 
 .menu-home-mobile{
