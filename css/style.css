@@ -5146,6 +5146,9 @@ p.home-intro-h1 {
 .footer-home-color{
   background-color: #F9FAFB !important;
 }
+.width-limit{
+  width: 70%;
+}
 }
 
 
