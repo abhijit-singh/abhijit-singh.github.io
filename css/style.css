@@ -4156,7 +4156,7 @@ h1,h2,h3,h4,h5,h6,body.single .title-wrap-tit,.title-wrap-h1, .archive-grid-item
 /* Menu Item on Expanded Panel*/
 #navi a 
 { 
-  font-family: 'PT Sans', serif;  font-weight: 700; font-style: normal; font-size: 36px;
+  font-family: 'product_sans_bold', PT Sans, serif;  font-weight: 700; font-style: normal; font-size: 36px;
 }
     
 /* Content Page Title */ 
