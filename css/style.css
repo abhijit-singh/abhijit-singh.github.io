@@ -4010,6 +4010,12 @@ h1,h2,h3,h4,h5,h6,body.single .title-wrap-tit,.title-wrap-h1, .archive-grid-item
   color: #555555;
 }
 
+.home-intro-h1 strong{
+  color: #51a782;
+}
+
+
+
 @media (min-width: 1100px) {
   .home-intro-h1{
     width: 60%;
