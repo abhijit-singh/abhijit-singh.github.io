@@ -569,7 +569,7 @@ transition: opacity 250ms ease-in-out;
 .no-touchevents body.header-scrolling #header,
 .no-touchevents body.header-scrolling #logo,
 .no-touchevents body.header-scrolling .logo-a {
-  height: 80px; line-height: 80px;
+  height: 80px; line-height: 80px; background-color: #ffffff;
 }
 .no-touchevents body.header-scrolled .logo-image,
 .no-touchevents body.header-scrolling .logo-image {
