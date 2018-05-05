@@ -3855,25 +3855,25 @@ h3#reply-title small, #comments .nav-tabs li.active h3#reply-title .logged,#comm
 /* Previous & Next */
 .post-navi-single, .arrow-item 
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Comment Title */
 .comment-box-tit,.comm-reply-title 
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Comment Content */
 .comm-u-wrap 
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Comment Author Name */
 .comment-meta .comment-author,.comment-meta .comment-author-a 
 { 
-  color: #313139;
+  color: #3e4a5d;
 }
 
 /* Portfolio List */
