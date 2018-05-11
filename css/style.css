@@ -5078,7 +5078,7 @@ blockquote em, blockquote i, blockquote cite {
  margin-bottom: 10%; 
 }
 
-.ux-portfolio-template-intro.container {
+.mobile-banner {
   background: url(../img/mob-banner.png);
   background-position: bottom center;
   background-repeat: no-repeat;
