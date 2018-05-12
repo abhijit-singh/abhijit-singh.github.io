@@ -572,7 +572,8 @@ transition: opacity 250ms ease-in-out;
   height: 80px; line-height: 80px; background-color: #ffffff;
 }
 .no-touchevents body.header-scrolling #header-main > .photo-page,
-.no-touchevents body.header-scrolled #header-main > .photo-page
+.no-touchevents body.header-scrolled #header-main > .photo-page,
+.no-touchevents body.header-scrolled .logo-a
 {
   background-color: #222229 !important;
 }
