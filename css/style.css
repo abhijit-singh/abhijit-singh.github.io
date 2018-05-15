@@ -5135,10 +5135,11 @@ p.home-intro-h1 {
 
 @media (min-width: 1001px) and (max-width:1441px){
 .home-banner {
-    background: url(../img/bg-home-abhijit.png);
+    background: url(../img/bg-home-abhijit.gif);
     background-position: top center;
     background-repeat: no-repeat;
     padding-top: 30px !important;
+    background-size: 100.2%;
 }
 p.home-intro-h1 {
   margin-bottom: 30px !important;
