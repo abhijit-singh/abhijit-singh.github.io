@@ -3,6 +3,10 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
  */
+html {
+   scroll-behavior: smooth;
+}
+
 
 body {
   font-size: 16px;
@@ -14,7 +18,7 @@ body {
 p {
   line-height: 1.5;
   margin: 24px 0;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 p a {
@@ -44,6 +48,7 @@ a {
 
 a:focus, a:hover {
   color: #0D88D1;
+  opacity: 1;
 }
 
 blockquote {
@@ -139,6 +144,7 @@ img::-moz-selection {
   }
 
 }
+
 
 
 
@@ -257,7 +263,10 @@ img::-moz-selection {
 
 .updated-date {
   background-color: #FEF5E7;
-  border-radius: 4px;
+  border-radius: 6px;
+  border: 1px solid;
+  margin-left: 4px;
+  border-color: rgba(245, 166, 35, 0.25);
   color: #F5A623;
   font-family: 'Courier', serif;
   padding: 6px 10px;
@@ -770,6 +779,10 @@ footer .copyright {
     margin-right: 10%;
   }
 
+}
+
+
+@media only screen and (max-width: 800px) {
 
 
   #mob-cont {
@@ -854,6 +867,7 @@ footer .copyright {
   opacity: 0.95;
   margin: 10px 28px;
   letter-spacing: 0.2px;
+  border-bottom: 2px solid transparent;
 }
 
 #navigation-bar .nav-list > li.nav-item > a:hover {
@@ -861,6 +875,15 @@ footer .copyright {
   border-bottom: 2px solid;
   opacity: 1;
 }
+
+#navigation-bar .nav-aionic > li.nav-item > a:hover {
+  color: #35B558;
+  border-bottom: 2px solid;
+  opacity: 1;
+}
+
+
+
 
 #navigation-bar .nav-list > li.is-active > a{
   color: #0D88D1;
@@ -888,6 +911,464 @@ footer .copyright {
 
 
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
+
+#wierd {
+  opacity: 0.5;
+}
+
+/*
+@keyframes glowing {
+  0% { box-shadow: 0 0 -10px #c4a300; }
+  40% { box-shadow: 0 0 20px #c4a300; }
+  60% { box-shadow: 0 0 20px #c4a300; }
+  100% { box-shadow: 0 0 -10px #c4a300; }
+}
+*/
+
+
+.pulsate-css {
+    animation: pulsate 0.8s ease-in-out infinite alternate;
+    opacity: 0.0;
+}
+
+
+.work-card a {
+  display: inherit;
+  font-weight: inherit;
+}
+
+
+.work-card a:hover {
+  display: inherit;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*AIONIC CASE STUDY*/
+
+
+
+header.masthead .case-1-heading {
+  padding: 200px 0 150px;
+  color: #35B558;
+  letter-spacing: 4px;
+}
+
+header.masthead .case-subheading {
+  color: #313D4B;
+  letter-spacing: 0px;
+}
+
+
+
+#case-1-banner {
+  background-color: #F3FBF5;
+    margin-bottom: 0px;
+
+}
+
+
+.nav-case-1 {
+  background-color: #F3FBF5 !important;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  header.masthead .case-1-heading {
+    padding: 200px 0 0px 0;
+  }
+}
+
+header.masthead .case-1-heading {
+  text-align: center;
+}
+
+header.masthead .case-1-heading h1 {
+  font-size: 64px;
+  margin-top: 0;
+}
+
+header.masthead .case-1-heading .case-subheading {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  display: block;
+  margin: 0px;
+  opacity: 0.8;
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .case-1-heading h1 {
+    font-size: 64px;
+  }
+}
+
+
+
+
+.case-sum-heading {
+  margin: 8px 0px 0px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #35B558;
+}
+
+
+ .case-sum-content {
+  margin: 0px;
+ }
+
+
+.case-body {
+  display: flex;
+  margin: 0px; 
+}
+
+
+.case-sidebar h3{
+  font-size: 36px;
+}
+
+
+.case-sidebar h5{
+  font-size: 28px;
+}
+
+
+.case-img-banner {
+  width: 100%;
+}
+
+.case-img-banner-top {
+  width: 100%;
+}
+
+
+
+.case-alt {
+  background-color: #F3FBF5;
+}
+
+.case-next-project-1{
+  background-color: #52679D;
+  color: #ffffff;
+}
+
+.case-highlight {
+ font-size: 24px;
+ font-weight: 300;
+ font-style: italic;
+ padding: 24px 0px;
+}
+
+
+.case-caption {
+  font-style: italic;
+  padding-top: 16px;
+}
+
+
+.competitor-logo {
+  width: 50%;
+  float: center;
+}
+
+
+.numeric-heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px 0px 4px;
+  opacity: 1;
+}
+
+
+.persona-heading {
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 1;
+  margin: 8px 0px 2px;
+}
+
+.persona-text {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .marginal-desktop {
+        margin-bottom: -100px;
+    }
+
+}
+
+
+
+.case-body a:focus, .case-body a:hover {
+  opacity: 1;
+}
+
+
+.bottom-logo{
+  text-align: center;
+  display: inline-block;
+}
+
+
+
+.w-c-2-case{
+  background-color: #495C8C;
+  border-color: #41527D;
+}
+
+.w-c-2-case .card-heading, .w-c-2-case .card-subheading, .w-c-2-case .badge-custom{
+  color: #ffffff;
+  font-weight: 700;
+} 
+
+.w-c-2-case .card-content, .w-c-2-case .card-subcontent {
+  color: #ffffff;
+  opacity: 0.8;
+  font-weight: 300;
+} 
+
+.w-c-2-case .badge-custom{
+    background-color: #41527D;
+}
+
+
+
+
+
+.logogo{
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: -30px;
+  margin-left: 10px;
+  transform: scale(0.7);
+}
+
+
+/*sticky sidebar*/
+
+@media only screen and (min-width: 992px) {
+
+  .case-sidebar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    height:fit-content;
+    margin-bottom: 30px;
+  }
+
+ .logogo {
+      position: fixed;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 501px) {
+  .case-img-banner-mob {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+  header.masthead .case-1-heading {
+    text-align: left;
+    padding-bottom: 24px;
+    padding-top: 175px;
+  }
+
+
+  header.masthead .case-1-heading h1{
+    font-size: 48px;
+    letter-spacing: 2px;
+  }
+
+
+  header.masthead .case-1-heading .case-subheading{
+    font-size: 16px;
+  }
+
+
+  .case-img-banner-top {
+    display: none;
+  }
+
+  .case-img-banner-mob {
+    width: 100%;
+  }
+
+  .competitor-logo {
+    width: 100%;
+    float: center;
+  }
+
+  .case-sidebar h3 {
+    font-size: 28px
+  }
+
+  .case-sidebar h5 {
+    font-size: 24px
+  }
+
+
+  .logogo {
+margin-top: -10px;
+  }
+
+  .logo-aionic {
+    margin-left: 0px;
+  }
+
+}
+
+
+
+
+
+
+
+.AOOO {
+    max-width: 100px;
+    position: absolute;
+    height: auto;
+    top:0px;
+    left:0px;
+  }
+
+.OTC{
+    max-width: 50.5px;
+    height: auto;
+    position: absolute;
+    top:0px;
+    left: 49.5px;
+}
+
+.OBC{
+    max-width: 50.5px;
+    position: absolute;
+    top:35px;
+    left: 49.5px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+#Page-1 {
+/*animation: circles 0.8s infinite ease-in-out;*/
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#Page-2 {
+/*animation: circs 0.8s infinite ease-in-out;*/
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+
+
+
+.logogo:hover {
+  fill:red;
+}
+
+
+
+@keyframes circles {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes circs {
+  from {
+
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    
+  }
+  to {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+
+::selection {
+  background-color: #55ABDF;
+}
+
+
+.aionic::selection {
+  background-color: #5DC479;
+}
+
+
 
 
 
