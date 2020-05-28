@@ -307,6 +307,13 @@ img::-moz-selection {
   border-radius: 24px;
 }
 
+@media only screen and (max-width: 500px) {
+  .work-card {
+    display: inline-block;
+  }
+}
+
+
 .work-card:hover {
   box-shadow: 0px 2px 12px rgba(0,0,0,0.1);
   transition: all 0.2s;
@@ -1315,9 +1322,6 @@ margin-top: -10px;
 
 
 
-.logogo:hover {
-  fill:red;
-}
 
 
 

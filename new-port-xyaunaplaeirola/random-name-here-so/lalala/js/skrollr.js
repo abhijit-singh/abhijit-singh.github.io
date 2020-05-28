@@ -697,7 +697,7 @@
 		Private methods.
 	*/
 
-	var _initMobile = function() {
+	var _initMobilea = function() {
 		var initialElement;
 		var initialTouchY;
 		var initialTouchX;
