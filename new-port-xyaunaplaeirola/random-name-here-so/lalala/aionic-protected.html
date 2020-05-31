@@ -308,10 +308,10 @@
 
         <ul class="nav-list nav-aionic mx-auto px-2">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Work</a>
+            <a class="nav-link" href="index.html#me-wrks">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="post.html">Articles</a>
+            <a class="nav-link" href="index.html#articles">Articles</a>
           </li>
            <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
@@ -320,7 +320,7 @@
             <a class="nav-link" href="post.html">Resumé</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="#contact-me">Contact</a>
           </li>
         </ul>
         </nav>
@@ -329,32 +329,37 @@
   
 
 
+
       <div class="mobile-nav-container" id="mob-cont">
-            <a class="nav-link col-3 pt-2 pb-2" href="index.html">
+            <a class="nav-link col-3" href="index.html">
             <div class="mob-nav-items">
-              <i class="fas fa-home"></i>
-              <p class="mob-nav-text">HOME</p>
+              <!-- <i class="fas fa-home"></i> -->
+              <img class="bottom-nav" src="img/common/Home.svg" alt=""/>
+              <p class="mob-nav-text">Home</p>
             </div>
           </a>
 
-          <a class="nav-link col-3 pt-2 pb-2" href="about.html">
+          <a class="nav-link col-3" href="about.html">
             <div class="mob-nav-items">
-              <i class="fas fa-user"></i>
-              <p class="mob-nav-text">ABOUT</p>
+              <!-- <i class="fas fa-user"></i> -->
+              <img class="bottom-nav" src="img/common/About.svg" alt=""/>
+              <p class="mob-nav-text">About</p>
             </div>
           </a>
 
-          <a class="nav-link col-3 pt-2 pb-2" href="post.html">
+          <a class="nav-link col-3" href="post.html">
             <div class="mob-nav-items">
-              <i class="fas fa-file-alt"></i>
-              <p class="mob-nav-text">RESUME</p>
+             <!-- <i class="fas fa-file-alt"></i> -->
+              <img class="bottom-nav" src="img/common/Resume.svg" alt=""/>
+              <p class="mob-nav-text">Resume</p>
             </div>
           </a>
 
-          <a class="nav-link col-3 pt-2 pb-2" href="about.html">
+          <a class="nav-link col-3" href="#contact-me">
             <div class="mob-nav-items">
-              <i class="fas fa-envelope"></i>
-              <p class="mob-nav-text">CONTACT</p>
+              <!-- <i class="fas fa-envelope"></i> -->
+              <img class="bottom-nav" src="img/common/Contact.svg" alt=""/>
+              <p class="mob-nav-text">Contact</p>
             </div>
           </a>
 
@@ -472,7 +477,7 @@
                         </div>
                         <div class="row">
                             <span id="messageWrapper">
-                                <span id="invalidPass" class="notifyText">Sorry, that code isn't correct. </br> <span style="color: rgba(0,0,0,0.5)"> Feel free to <a href="">get in touch</a> if you don't remember it.</span></span>
+                                <span id="invalidPass" class="notifyText">Sorry, that code isn't correct. </br> <span style="color: rgba(0,0,0,0.5)"> Feel free to <a href="#contact-me">get in touch</a> if you don't remember it.</span></span>
                                 <span id="success" class="notifyText">Woo hoo! You got it right!</span>
                                 &nbsp;
                             </span>
@@ -484,7 +489,7 @@
         </div>
 
 
-        <footer>
+        <footer id="contact-me">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 pr-4 footer-pads">

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+    	body {
+    margin: 0;
+    height: 100vh;
+    background: rgb(29, 29, 29);
+    transition: background-color 2s ease;
+}
+
+#progress {
+    height: 1px;
+    background: rgb(126, 126, 126);
+    position: absolute;
+    transition: width 0.5s ease;
+    top: 45%;
+    opacity: 1;
+    z-index: 2;
+}
+
+
+#gallery {
+    opacity: 0;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 25%);
+    grid-gap: 5em;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    transform: scale(.8);
+}
+
+img {
+    width: 100%;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.fadeIn {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+    transition: all 1s 1.5s;
+}
+
+.expand {
+    opacity: 0 !important;
+    transition: opacity 2s !important;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="progress"></div>
+
+    <div id="gallery"></div>
+
+
+
+<script type="text/javascript" src="js/preloadjs.min.js"></script>
+
+    <script type="text/javascript">
+      
+    let progress = document.getElementById('progress');
+    let gallery = document.getElementById('gallery');
+    
+    var queue = new createjs.LoadQueue(false);
+ 
+    queue.on("fileload", handleFileComplete);
+    queue.on('progress', event => {
+        console.log(event);
+
+    })
+    queue.loadFile('https://s3.amazonaws.com/coursetro/stuff/mountains-clouds.jpg');
+    queue.loadFile('https://s3.amazonaws.com/coursetro/stuff/adventure-alpine-alps-714258.jpg');
+    queue.loadFile('https://s3.amazonaws.com/coursetro/stuff/170407220921-07-iconic-mountains-pitons-restricted.jpg');
+    queue.loadFile('https://s3.amazonaws.com/coursetro/stuff/170407220916-04-iconic-mountains-matterhorn-restricted.jpg');
+
+    function handleFileComplete(event) {
+   
+    }
+
+
+    </script>
+
+
+
+</body>
+</html>

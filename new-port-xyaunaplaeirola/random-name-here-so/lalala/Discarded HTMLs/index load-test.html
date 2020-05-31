@@ -82,15 +82,13 @@
 </div>
   </div>
 
-
-
   <!-- Navigation -->
-    <div class="nav-container mx-0 nav-about" id="nav-cont">
+    <div class="nav-container mx-0" id="nav-cont">
       <a class="logo-container mx-md-3" href="index.html">
 
       <div class="logogo logogo-home">
       <div class="row">
-        <div data-50="opacity: 1;" data-100="opacity:0.2;" class="col-12">
+        <div data-200="opacity[cubic]: 1;" data-320="opacity[cubic]:0;" data-600="opacity[cubic]:0;" data-670="opacity[cubic]: 1;" class="col-12">
           <svg class="AOOO" width="507px" height="437px" viewBox="0 0 507 437" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
             <title>AOO</title>
@@ -143,20 +141,20 @@
        <nav class="navbar-abhijit" id="navigation-bar">
 
         <ul class="nav-list mx-auto px-2">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#me-wrks">Work</a>
+          <li class="nav-item is-active">
+            <a class="nav-link" href="index.html">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#articles">Articles</a>
+            <a class="nav-link" href="post.html">Articles</a>
           </li>
-           <li class="nav-item is-active">
+           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Resume_Abhijit.pdf" target="_blank">Resume</a>
+            <a class="nav-link" href="post.html">Resumé</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact-me">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
         </nav>
@@ -166,35 +164,31 @@
 
 
       <div class="mobile-nav-container" id="mob-cont">
-            <a class="nav-link col-3" href="index.html">
-            <div class="mob-nav-items">
-              <!-- <i class="fas fa-home"></i> -->
-              <img class="bottom-nav" src="img/common/Home.svg" alt=""/>
-              <p class="mob-nav-text">Home</p>
-            </div>
-          </a>
-
-          <a class="nav-link col-3" href="about.html">
+            <a class="nav-link col-3 pt-2 pb-2" href="index.html">
             <div class="mob-nav-items" id="is-active-mob">
-              <!-- <i class="fas fa-user"></i> -->
-              <img class="bottom-nav" src="img/common/About-active.svg" alt=""/>
-              <p class="mob-nav-text">About</p>
+              <i class="fas fa-home"></i>
+              <p class="mob-nav-text">HOME</p>
             </div>
           </a>
 
-          <a class="nav-link col-3" href="Resume_Abhijit.pdf" target="_blank">
+          <a class="nav-link col-3 pt-2 pb-2" href="about.html">
             <div class="mob-nav-items">
-             <!-- <i class="fas fa-file-alt"></i> -->
-              <img class="bottom-nav" src="img/common/Resume.svg" alt=""/>
-              <p class="mob-nav-text">Resume</p>
+              <i class="fas fa-user"></i>
+              <p class="mob-nav-text">ABOUT</p>
             </div>
           </a>
 
-          <a class="nav-link col-3" href="#contact-me">
+          <a class="nav-link col-3 pt-2 pb-2" href="post.html">
             <div class="mob-nav-items">
-              <!-- <i class="fas fa-envelope"></i> -->
-              <img class="bottom-nav" src="img/common/Contact.svg" alt=""/>
-              <p class="mob-nav-text">Contact</p>
+              <i class="fas fa-file-alt"></i>
+              <p class="mob-nav-text">RESUME</p>
+            </div>
+          </a>
+
+          <a class="nav-link col-3 pt-2 pb-2" href="about.html">
+            <div class="mob-nav-items">
+              <i class="fas fa-envelope"></i>
+              <p class="mob-nav-text">CONTACT</p>
             </div>
           </a>
 
@@ -203,179 +197,286 @@
 
 
   <!-- Page Header -->
-  <header class="masthead" id="aboutbanner">
+  <header class="masthead" id="homebanner">
 
-    <div class="container pr-sm-5 pl-sm-5">
+    <div class="overlay"></div>
+    <div class="container">
       <div class="row">
-        <div class="col-lg-5 col-md-5 mx-auto pr-sm-4">
-
-            <div class="about-image">
-            <img class="about-banner-top" src="img/About-top.png" alt="Abhijit"/>
+        <div class="col-lg-6 col-md-7 mx-auto">
+          <div class="site-heading">
+            <h1>Hi, I'm Abhijit.</h1>
+            <h2>
+              <span class="subheading">I’m a product designer based out of <a href="" class="text-links" target="_blank">India</a>, currently working with the talented folks at <a href="" class="text-links" target="_blank">Sigtuple</a>, building tools to power the next wave of disruption in medical diagnostics.</span>
+            </h2>
+            <br/>
+            <h3>
+              <span class="subheading subheading-bottom">I also climb mountains, click <a href="" class="text-links" target="_blank">photographs</a>, dabble with poetry, and get constantly fascinated by the intelligence of our political leaders.</span>
+            </h3>
           </div>
-
-        
         </div>
-        <div class="col-lg-7 col-md-7 mx-auto ml-sm-0 pl-sm-5">
-
-          <div class="site-heading about-heading pb-3">
-            <h1>I am Abhijit, a product designer from India.</h1>
-            <p>
-              <span style="font-size: 16px; line-height: 1.6em;" class="subheading">I’m currently handling Product Design at <a href="https://sigtuple.com/" class="text-links" target="_blank">Sigtuple</a>, crafting experiences for a cluster of tools to manage diagnostic laboratories and designing interfaces for multiple AI-powered diagnostic devices. Over the past two years, I’ve worked with doctors, lab technicians, phlebotomists and other medical professionals to understand the ins & outs of the diagnostic healthcare ecosystem. I also got the opportunity to work remotely with incredible design & development agencies like <a style="font-style: italic;" href="https://grappus.com/" class="text-links" target="_blank">Grappus</a>,<a style="font-style: italic;" href="http://www.theminimalist.in/" class="text-links" target="_blank"> The Minimalist</a> and <a style="font-style: italic;" href="https://ittisa.com/" class="text-links" target="_blank">Ittisa</a>, collaborating on and leading several design projects.</span>
-            </p>
-            <p>
-              <span style="font-size: 16px;  line-height: 1.6em;" class="subheading">Having been fascinated by softwares like Photoshop and Corel Draw since 8th grade, I’ve now been designing interfaces for 7+ years, with a professional experience of 4+ years. My background in Computer Science Engineering has allowed me to have a deeper technical understanding of how products are built and allowed me to look at things from the developers’ perspective.</span>
-            </p>
-          </div>
-
-
-
+        <div class="col-lg-6 col-md-5 mx-auto">
         </div>
       </div>
-      
+      <div class="row pb-4">
+        <div class="col-5">
+        </div>
+        <div style="text-align: center;" class="col-2 pulsate-css" id="arrow-down">
+          <a href="#me-wrks">
+              <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="wired-arrow">
+                <g id="Artboard">
+                  <path  id="#wierd" d="M11.1707 5.834L11.7777 6.44104C12.0347 6.69806 12.0347 7.11367 11.7777 7.36797L6.46482 12.6836C6.20778 12.9406 5.79218 12.9406 5.53786 12.6836L0.222261 7.36797C-0.0347803 7.11095 -0.0347803 6.69533 0.222261 6.44104L0.829301 5.834C1.08907 5.57423 1.51289 5.5797 1.76718 5.84494L4.90623 9.13986V1.28128C4.90623 0.917615 5.19881 0.625031 5.56248 0.625031H6.43748C6.80114 0.625031 7.09373 0.917615 7.09373 1.28128V9.13986L10.2328 5.84494C10.4871 5.57695 10.9109 5.57151 11.1707 5.834Z" fill="#a6b3c0"/>
+                </g>
+                </g>
+              </svg>
+              </a>
+        </div>
+        <div class="col-5">
+         </div>
+      </div>
     </div>
-
-
   </header>
 
   <!-- Main Content -->
-  
-    <div style="width: 100%; background-color: #F0F6FB;">
-          <div class="container pr-sm-5 pl-sm-5">
-
-              <div class="row pt-5 pb-5">
-                  
-                  <div class="col-md-6">
-                 
-                      <p class="case-highlight pb-1 pt-4 pr-sm-5">Abhijit has a level head on very young shoulders. I wouldn’t be surprised if poeple mistake him to be professionally far more experienced than what the number of years on his resume indicate.</p>
-
-                      <p class="case-highlight pt-1 mt-1 pb-sm-3 pb-0 pr-sm-5">I truly believe that he will prove to be an asset on any team.</p>
-
-                      <p style="font-weight: 700;" class="pb-1 mb-0">Saurabh Nanda</p>
-                      <p class="pb-1 mt-0">Founder & CEO, Vacation Labs</p>
-
-                  </div>
-
-
-
-
-                  <div class="col-md-6">
-                 
-                      <p class="case-highlight pb-1 pt-4 pl-sm-5">Abhijit’s enthusiasm of running through multiple iterations and the maturity of thought process is really commendable!</p>
-
-                      <p style="font-weight: 700;" class="pb-1 mb-0 pl-sm-5">Apurv Anand</p>
-                      <p class="pb-1 mt-0 pl-sm-5">Co-Founder & COO, Sigtuple</p>
-
-                  </div>
-
-               </div>
-
-           </div>
-    </div>
-
-
-
-
-
-
-
-  <div class="container pr-sm-5 pl-sm-5">
-      <div class="row mt-sm-5 mt-3 pt-5 pb-5 mb-5">
-       
-
-
-
-        <div class="col-lg-5 col-md-5 mx-auto pr-sm-0 pt-sm-4 mt-sm-3">
-
-            <h3>Mountains, Sports & Poetry</h3>
-
-            <img class="about-mob-show pt-3 pb-2" style="width: 100%;" src="img/About-trek.png" alt="Trek"/>
-
-            <p>
-              <span style="font-size: 16px;  line-height: 1.6em;   color: #435F7A; " class="subheading">In my free time, you’ll find me clicking photographs or climbing a mountain. I’m an avid trekker and have climbed some beautiful Himalayan peaks over the past few years, some of which you can see in my photographs. In my previous lives, I used to play professional table-tennis, and also write a bit of poetry, some in English, and some in a combination of Hindi & Urdu.</span>
-            </p>
-            
-            <a href="photographs.html">
-               <button class="empty-button mt-sm-4 mt-2">View Photographs</button>
-            </a> 
-
-
-
-            <div class="row mt-5">
-            
-                <div class="col-12">
-                  <p style="color: #0D88D1;" class="case-sum-heading">WHAT I'M READING</p>                  
-                  <a style="text-decoration: underline;" href="https://www.amazon.in/dp/B00R3C1U52/">
-                    <p class="case-sum-content">Road to Character by David Brooks<i style="margin-left: 6px;" class="fas fa-external-link-alt"></i></p>
-                  </a>
-                </div>
-
-                <div class="col-12 mt-4">
-                   <p style="color: #0D88D1;" class="case-sum-heading">WHAT I'M LISTENING TO</p>
-                    <a style="text-decoration: underline;" href="https://open.spotify.com/playlist/4qcRpyiSUGqlnTHscAL9fz?si=fpvPbsn1TVKFtltb4hNLFg">
-                      <p class="case-sum-content">Spotify playlist<i style="margin-left: 6px;" class="fas fa-external-link-alt"></i></p>
-                    </a>
-                </div>
-
-
-
-
-          </div>
-        </div>
-
-
-
-
-         <div class="col-lg-1 col-md-1 mx-auto">
-        </div>
-
-
-         <div class="col-lg-6 col-md-6 mx-auto">
-
-            <div>
-            <img class="about-mob-hide" style="width: 100%;" src="img/About-trek.png" alt="Trek"/>
-          </div>
-        </div>
-
-
-
-
-
+  <div class="container my-work" id="me-wrks">
+    <div class="row">
+      <div class="col-lg-3 col-md-5 pr-4 sidebar">
+        <h3 class="section-heading">My Work
+        </h3>
+        <p>Some of the projects listed here are not publicly available. Please <a href="">reach out to me</a> for the password.</p>
+        <p>Last updated 
+          <span class="updated-date">May 2020</span>
+        </p>
       </div>
-      
+
+      <div class="col-lg-9 col-md-7 pl-sm-5">
+
+      <!-- Card 1 -->
+      <div class="card-container">
+        <div class="row work-card w-c-1">
+          <a href="aionic-protected.html">
+            <div class="col-lg-6 col-md-6 px-3">
+              <div class="row mt-sm-4 mt-3">
+                <div class="col-sm-10 mx-sm-3">
+                <h4 class="card-heading">AI<span style="font-weight: 400;">ONIC
+                </span><span style="position: relative;"> <i style="position:absolute; opacity: 0.2; font-size:0.8em; top:4px; margin-left: 8px;" class="fas fa-lock"></i></span> </h4>
+                <p class="card-content">AI-based platform to manage diagnostic laboratories of the future. Currently powering Humain Health labs in 10+ cities across India.</p>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-sm-5 col-6 mx-sm-3">
+                  <p class="card-subheading">WHEN</p>
+                  <p class="card-subcontent">2018 - Present</p>
+                </div>
+                <div class="col-sm-5 col-6 mx-sm-3">
+                  <p class="card-subheading">COMPANY</p>
+                  <p class="card-subcontent">SigTuple</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 mx-sm-3">
+                 <p class="card-subheading">MY ROLE</p>
+                 <p class="card-subcontent">Research, Product Design & Strategy</p>
+                </div>
+              </div>
+              <div class="row">
+                <div style="margin-left: -2px;" class="col-sm-11 col-12 mx-sm-3 mb-sm-4">
+                  <span class="badge badge-pill badge-custom">SaaS</span>
+                  <span class="badge badge-pill badge-custom">Enterprise Software</span>
+                  <span class="badge badge-pill badge-custom">Healthcare</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 mx-auto px-sm-0 pl-3 pr-0 pt-sm-4 pt-2">
+           <img class="card-image" src="img/work-card-1.svg" alt="Aionic"/>
+            <img class="card-image-mob" src="img/work-card-1.svg" alt="Aionic"/>
+          </div>
+        </a>
+      </div>
+    </div>
+
+<!-- Card 2 -->
+      <div class="card-container">
+        <div class="row work-card w-c-2">
+          <a href="aionic.html">
+            <div class="col-lg-9 col-md-9 px-3">
+              <div class="row mt-sm-4 mt-3">
+                <div class="col-sm-10 mx-sm-3">
+                <h4 class="card-heading">Humain Logistics Management Platform<span style="position: relative;"> <i style="position:absolute; opacity: 0.2; font-size:0.8em; top:4px; margin-left: 8px;" class="fas fa-lock"></i></span> </h4>
+                <p class="card-content">Integrated cluster of tools to automate, analyze & manage the logistics as well as business operations of diagnostic laboratories, clinics & phlebotomy services for Humain Health.</p>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-sm-3 col-5 mx-sm-3">
+                  <p class="card-subheading">WHEN</p>
+                  <p class="card-subcontent">2019 - 2020</p>
+                </div>
+                <div class="col-sm-6 col-7 mx-sm-3">
+                  <p class="card-subheading">COMPANY</p>
+                  <p class="card-subcontent">SigTuple, Humain Health</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 mx-sm-3">
+                 <p class="card-subheading">MY ROLE</p>
+                 <p class="card-subcontent">Product Design & Roadmap Planning</p>
+                </div>
+              </div>
+              <div class="row">
+                <div style="margin-left: -2px;" class="col-sm-11 col-12 mx-sm-3 mb-sm-4">
+                  <span style="margin-left: -2px;" class="badge badge-pill badge-custom">Internal Tools</span>
+                  <span class="badge badge-pill badge-custom">Logistics</span>
+                  <span class="badge badge-pill badge-custom">Enterprise Software</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-3 mx-auto px-sm-0 pl-3 pr-3 pt-sm-4 pt-2">
+           <img class="card-image" src="img/work-card-2.svg" alt="Aionic"/>
+           <img class="card-image-mob" src="img/work-card-2.png" alt="Aionic"/>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+     <!-- Card 3 -->
+      <div class="card-container">
+        <div class="row work-card w-c-3">
+          <a href="aionic.html">
+            <div class="col-lg-6 col-md-6 px-3">
+              <div class="row mt-sm-4 mt-3">
+                <div class="col-sm-10 mx-sm-3">
+                <h4 class="card-heading">Humain Health B2C Apps<span style="position: relative;"> <i style="position:absolute; opacity: 0.2; font-size:0.8em; top:4px; margin-left: 8px;" class="fas fa-lock"></i></span> </h4>
+                <p class="card-content">Appointment scheduling, sample tracking, virtual doctor consultation & medical record managment application for the Indian metropolitan consumers.</p>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-sm-5 col-6 mx-sm-3">
+                  <p class="card-subheading">WHEN</p>
+                  <p class="card-subcontent">2019</p>
+                </div>
+                <div class="col-sm-5 col-6 mx-sm-3">
+                  <p class="card-subheading">COMPANY</p>
+                  <p class="card-subcontent">SigTuple, Ittisa</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 mx-sm-3">
+                 <p class="card-subheading">MY ROLE</p>
+                 <p class="card-subcontent">Product Design Lead, Project Management</p>
+                </div>
+              </div>
+              <div class="row">
+                <div  style="margin-left: -2px;" class="col-sm-11 col-12 mx-sm-3 mb-sm-4">
+                  <span class="badge badge-pill badge-custom">B2C</span>
+                  <span class="badge badge-pill badge-custom">Mobile App</span>
+                  <span class="badge badge-pill badge-custom">E-Commerce</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 mx-auto px-sm-0 pl-3 pr-0 pt-sm-4 pt-2">
+           <img class="card-image" style="max-height: 310px !important;" src="img/work-card-3.png" alt="Aionic"/>
+           <img class="card-image-mob" src="img/work-card-3.png" alt="Aionic"/>
+          </div>
+        </a>
+      </div>
     </div>
 
 
 
+    <!-- Card 4 -->
+      <div class="card-container">
+        <div class="row work-card w-c-2">
+         <a href="aionic.html">
+            <div class="col-lg-8 col-md-8 px-3">
+              <div class="row mt-sm-4 mt-3">
+                <div class="col-sm-10 mx-sm-3">
+                <h4 class="card-heading">Lead Creation & Inquiry Manager</h4>
+                <p class="card-content">Lead generation tools like Custom Itinerary & Website Builder. for tour operators, coupled with a CRM enquiry system to help instantly identify opportunities and manage leads effectively.</p>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-sm-3 col-6 mx-sm-3">
+                  <p class="card-subheading">WHEN</p>
+                  <p class="card-subcontent">2018 - 2019</p>
+                </div>
+                <div class="col-sm-6 col-6 mx-sm-3">
+                  <p class="card-subheading">COMPANY</p>
+                  <p class="card-subcontent">Vacation Labs</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 mx-sm-3">
+                 <p class="card-subheading">MY ROLE</p>
+                 <p class="card-subcontent">Product Design & Research</p>
+                </div>
+              </div>
+              <div class="row">
+                <div style="margin-left: -2px;" class="col-sm-11 col-12 mx-sm-3 mb-sm-4">
+                  <span class="badge badge-pill badge-custom">Platform</span>
+                  <span class="badge badge-pill badge-custom">SaaS</span>
+                  <span class="badge badge-pill badge-custom">Travel Operators</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mx-auto px-sm-0 pl-3 pr-0 pt-sm-4 pt-2">
+           <img class="card-image" src="img/work-card-4.png" alt="Aionic"/>
+            <img class="card-image-mob" src="img/work-card-4.png" alt="Aionic"/>
 
-
-
-    <div style="width: 100%; background-color: #F0F6FB;">
-          <div class="container pr-sm-5 pl-sm-5">
-
-              <div class="row pt-5 pb-5">
-                  
-                  <div class="col-md-9">
-                 
-                      <p style="font-style: normal;" class="case-highlight pb-1 pt-4 pr-sm-5">I’m always looking for exciting side projects and opportunities to get involved , especially if they make life easier for people, work towards racial, religious and gender equality, or help combat fake news. If you think I can help or contribute in any way, feel free to reach out.</p>
-
-                      <p style="font-style: normal;" class="case-highlight pb-1 pt-2 pr-sm-5">Thanks for stopping by!</p>
-
-                  </div>
-
-
-               </div>
-
-           </div>
+          </div>
+        </a>
+      </div>
     </div>
 
 
+    </div>
+  </div>
+</div>
 
+
+  <!-- Articles -->
+<div style="width: 100%; background-color: #F0F6FB;">
+<div class="container my-articles">
+    <div class="row">
+      <div class="col-lg-3 col-md-5 pr-4 sidebar">
+        <h3 class="section-heading">Articles
+        </h3>
+        <p>Last updated 
+          <span class="updated-date">May 2020</span>
+        </p>
+      </div>
+
+       <div class="col-lg-9 col-md-7 pl-sm-5">
+       
+        <hr>
+
+        <a href="" target="_blank">
+          <div class="row mx-sm-4 mx-3">
+          <h5 class="article-heading">How to spot a design centric functional product team</h5>
+          <p class="article-subtext">And not get stuck in an organization that doesn’t value design </p>
+        </div>
+      </a>
+                
+                <hr>
+        <a href="" target="_blank">
+        <div class="row mx-sm-4 mx-3">
+          <h5 class="article-heading">Rome wasn’t built in a day, neither was a design system.</h5>
+          <p class="article-subtext">Start building that design system instead of waiting for people to get on board with the idea</p>
+        </div>
+      </a>
+                  <hr>
+
+       </div>
+
+    </div>
+</div>
+</div>
 
 
 
   <!-- Footer -->
-  <footer id="contact-me">
-    <div class="container pr-sm-5 pl-sm-5">
+  <footer>
+    <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 pr-4 footer-pads">
           <h3 class="section-heading">Let's Talk!</h3>
@@ -403,10 +504,22 @@
   <script src="js/clean-blog.min.js"></script>
 
   <script src="js/mmenu-light.js"></script>
+
    <script type="text/javascript" src="js/skrollr.js"></script>
 
+    <script type="text/javascript" src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
 
-  <script type="text/javascript" src="js/preloadjs.min.js"></script>
+    <script type="text/javascript">
+      
+        let banner = document.getElementByID('home-banner');
+
+        var queue = new createjs.LoadQueue(false);
+
+
+    </script>
+
+
+     <script type="text/javascript" src="js/preloadjs.min.js"></script>
 
     <script type="text/javascript">
       
@@ -450,9 +563,6 @@
         }
 
     </script>
-
-
-
 
 
   <script type="text/javascript">
