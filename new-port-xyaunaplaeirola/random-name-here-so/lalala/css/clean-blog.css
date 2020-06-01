@@ -8,6 +8,7 @@ html {
 }
 
 
+
 body {
   font-size: 16px;
   color: #18395A;
@@ -443,7 +444,7 @@ img::-moz-selection {
 
 
 header.masthead {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   background: no-repeat center bottom;
   background-color: #F0F6FB;
   background-attachment: scroll;
@@ -472,7 +473,7 @@ header.masthead .site-heading {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 200px 0 100px 0;
+    padding: 200px 0 64px 0;
   }
 }
 
@@ -698,7 +699,7 @@ footer .copyright {
 
 
 #nav-cont {
-  background-color: #F0F6FB;
+  background-color: #ecf3fa;
   font-family: 'Product Sans', 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #343a40;
@@ -717,7 +718,8 @@ footer .copyright {
 
 @media only screen and (max-width: 500px) {
   #homebanner {
-    background-image: url('../img/bg-banner-home-mob.svg'); 
+    /*background-image: url('../img/bg-banner-home-mob.svg'); */
+    background-color: #F0F6FB;
   }
 
   .logo-image {
@@ -732,13 +734,13 @@ footer .copyright {
   }
 
   .subheading-bottom {
-    margin-bottom: 90px !important;
+    margin-bottom: 0px !important;
     margin-top: -10px !important;
   }
 
 
   header.masthead .site-heading {
-    padding: 136px 12px 200px !important;
+    padding: 136px 12px 0px !important;
   }
 
 
@@ -883,6 +885,9 @@ footer .copyright {
 .nav-list li {
   display: inline-block;
 }
+
+
+
 
 
 #navigation-bar .nav-list > li.nav-item > a {
@@ -1714,6 +1719,8 @@ header.masthead .case-2-heading .case-subheading {
 
 
 
+
+
 .about-banner-top {
   width: 100%;
 }
@@ -1771,6 +1778,24 @@ header.masthead .case-2-heading .case-subheading {
     display: none;
   }
 
+
+  #lottie {
+  max-width: 428px;
+  position: relative;
+  z-index: 2;
+}
+
+.karo-fix {
+  max-width: 12.8%;
+  position: absolute;
+  top: 48.8%;
+  left: 8%;
+}
+
+.no-show-mob{
+  display: none;
+}
+
 }
 
 
@@ -1781,8 +1806,53 @@ header.masthead .case-2-heading .case-subheading {
   }
 }
 
+
+
+.anima {
+  width: 100%;
+  height:100%;
 }
 
 
 
+@media only screen and (min-width: 992px) {
+
+
+
+#lottie {
+  max-width: 428px;
+  position: relative;
+  left: 100px;
+  bottom: -64px;
+  z-index: 2;
+}
+
+.karo-fix {
+  max-width: 64px;
+  position: relative;
+  left: 120px;
+  top: 362px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+
+
+
+#lottie {
+
+  position: relative;
+  left: 36px;
+  bottom: -135px;
+}
+
+.karo-fix {
+  left: 56px;
+  top: 433px;
+}
+
+}
 
