@@ -45,6 +45,7 @@ a {
   color: inherit;
   font-weight: 700;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 a:focus, a:hover {
@@ -979,6 +980,7 @@ footer .copyright {
 .pulsate-css {
     animation: pulsate 0.8s ease-in-out infinite alternate;
     opacity: 0.0;
+    cursor: pointer;
 }
 
 
@@ -1727,6 +1729,7 @@ header.masthead .case-2-heading .case-subheading {
 
 .about-image {
   padding: 200px 0px 0px;
+  border-radius: 16px;
 }
 
 
@@ -1796,6 +1799,19 @@ header.masthead .case-2-heading .case-subheading {
   display: none;
 }
 
+.btt-footer{
+  float: left;
+  margin-top: -42%;
+  max-width: 40%;
+}
+
+#footie {
+  max-width: 50%;
+  float: right;
+  margin-right: 12px;
+  margin-bottom: -60px;
+}
+
 }
 
 
@@ -1804,6 +1820,10 @@ header.masthead .case-2-heading .case-subheading {
   .about-mob-show{
     display: none;
   }
+.no-show-desk {
+  display: none;
+}
+
 }
 
 
@@ -1835,6 +1855,17 @@ header.masthead .case-2-heading .case-subheading {
 }
 
 
+.anima-foots {
+  width: 100%;
+  height:100%;
+}
+
+#footie{
+  max-width: 300px;
+  position: absolute;
+  bottom: -72px;
+}
+
 }
 
 
@@ -1855,4 +1886,5 @@ header.masthead .case-2-heading .case-subheading {
 }
 
 }
+
 
