@@ -327,9 +327,10 @@ img::-moz-selection {
 
 
 .work-card:hover {
-  box-shadow: 0px 2px 12px rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
   cursor: pointer;
   margin-left: 0px;
+  transition-delay: 0.1s;
 
 }
 
@@ -474,7 +475,7 @@ header.masthead .site-heading {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 200px 0 64px 0;
+    padding: 175px 0 89px 0;
   }
 }
 
@@ -1945,20 +1946,24 @@ header.masthead .case-4-heading .case-subheading {
 
 
 .empty-button {
-    font-size:16px;
+    font-size:14px;
     font-family: 'Lato', sans-serif;
-    border: 1px solid #0D88D1;
-    border-radius: 4px;
+    border: 0px solid #0D88D1;
+    border-radius: 8px;
     color: #0D88D1;
-    background-color: #ffffff;
-    transition: 0.16s;
-    padding: 10px 20px;
+    background-color: #E2F0F9;
+    transition: 0.15s;
+    padding: 16px 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
 
 
 .empty-button:hover {
     background-color: #0D88D1;
     color: white;
+
   }
 
 
@@ -1998,6 +2003,7 @@ header.masthead .case-4-heading .case-subheading {
   float: left;
   margin-top: -42%;
   max-width: 40%;
+  margin-left: 8px;
 }
 
 #footie {
@@ -2081,5 +2087,87 @@ header.masthead .case-4-heading .case-subheading {
 }
 
 }
+
+.toolbarBackground {
+  display: none !important;
+}
+
+
+.cups-container {
+     position: absolute;
+    width: 48.8%;
+    height: auto;
+    top: 7.2%;
+    left: 22.785%;
+    z-index: 200000;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  .cups-container {
+    width: 67.8%;
+    top: 8%;
+    left: 16.5%;
+  }
+
+  .copyright {
+    margin-top: 80px;
+  }
+
+
+  ._1bqdrLsJSZt9zFJWH9azSb {
+    width: calc(100% - 10px) !important;
+    min-height: 112px !important;
+  }
+
+
+}
+
+
+
+.card-hover-effect {
+    width: calc(100% - 63px);
+    background-color: #D7E9DB;
+    border-radius: 26px;
+    display: inherit;
+    margin-left: -15px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+
+.card-hover-effect:hover {
+background-color: red;
+}
+
+
+.card-hover-text {
+    color: #38924C;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    transform: rotateZ(-90deg);
+    position: absolute;
+    top: 90px;
+    left: -53px;
+    font-size: 14px;
+    font-family: 'Product Sans','Catamaran','Lato', sans-serif;
+    margin: 0px;
+  }
+
+  .foot-arrow-desk {
+    right: 44.5px;
+    bottom: 164px;
+  }
+
+
+
+  .test-card {
+    background-color: #F0F6FB;
+    border-radius: 24px;
+  }
 
 
