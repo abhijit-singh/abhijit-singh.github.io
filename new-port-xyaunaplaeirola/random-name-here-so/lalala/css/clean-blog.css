@@ -406,7 +406,7 @@ img::-moz-selection {
 
 .my-articles{
   background-color: #F0F6FB;
-  padding-top: 75px;
+  padding-top: 64px;
   padding-bottom: 84px;
 }
 
@@ -424,7 +424,7 @@ img::-moz-selection {
 
 .article-subtext{
   font-size: 16px;
-  margin: 0px;
+  margin: -4px 0px;
   margin-bottom: 12px;
   opacity: 0.7;
   font-weight: 400;
@@ -952,6 +952,10 @@ footer .copyright {
   transition-timing-function: ease-out;
 }
 
+  .card-container:hover > .card-hover-effect > .card-arrow-icon {
+ 
+  transform: rotate(360deg);
+}
 
 }
 
@@ -2165,6 +2169,8 @@ background-color: red;
     position: absolute;
     left: 14px;
     bottom: 24px;
+    transition: 0.4s 1s ease-in-out ;
+
   }
 
 
@@ -2213,3 +2219,22 @@ background-color: red;
   color: #38924C;
 }
 
+
+
+#featured-tag {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: -2px;
+    margin-top: 14px;
+    margin-left: -2px;
+    background-color: rgba(13, 136, 209, 0.84);
+    border-radius: 4px;
+    padding: 3px 8px 2px;
+    opacity: 1;
+    letter-spacing: 0.5px;
+}
+
+#featured-tag:hover {
+  text-decoration: none !important;
+}
