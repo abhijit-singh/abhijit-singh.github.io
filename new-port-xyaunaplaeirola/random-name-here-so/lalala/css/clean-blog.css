@@ -326,13 +326,7 @@ img::-moz-selection {
 }
 
 
-.work-card:hover {
-  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
-  cursor: pointer;
-  margin-left: 0px;
-  transition-delay: 0.1s;
 
-}
 
 .w-c-1{
   background-color: #F3FBF5;
@@ -952,6 +946,12 @@ footer .copyright {
     display: none;
   }
 
+  .card-container:hover > .work-card {
+  cursor: pointer;
+  transform: translate(40px, 0px);
+  transition-timing-function: ease-out;
+}
+
 
 }
 
@@ -967,8 +967,8 @@ footer .copyright {
     left: 0;
   }
 }
-*/
 
+*/
 #wierd {
   opacity: 0.5;
 }
@@ -2129,6 +2129,7 @@ header.masthead .case-4-heading .case-subheading {
 
 .card-hover-effect {
     width: calc(100% - 63px);
+    height: 100%;
     background-color: #D7E9DB;
     border-radius: 26px;
     display: inherit;
@@ -2152,12 +2153,20 @@ background-color: red;
     letter-spacing: 1.5px;
     transform: rotateZ(-90deg);
     position: absolute;
-    top: 90px;
-    left: -53px;
+    top: 84px;
+    left: -50px;
     font-size: 14px;
     font-family: 'Product Sans','Catamaran','Lato', sans-serif;
     margin: 0px;
   }
+
+
+  .card-arrow-icon {
+    position: absolute;
+    left: 14px;
+    bottom: 24px;
+  }
+
 
   .foot-arrow-desk {
     right: 44.5px;
@@ -2171,4 +2180,36 @@ background-color: red;
     border-radius: 24px;
   }
 
+
+#work-cards-column a {
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+
+
+.che-1 {
+  background-color: #DFF3E5;
+}
+
+.cht-1, .cai-1 {
+  color: #35B558;
+}
+
+
+.che-2, .che-4 {
+  background-color: #E0E2F9;
+}
+
+.cht-2, .cai-2, .cht-4, .cai-4 {
+  color: #52679D;
+}
+
+.che-3 {
+  background-color: #D7E9DB;
+}
+
+.cht-3, .cai-3 {
+  color: #38924C;
+}
 
