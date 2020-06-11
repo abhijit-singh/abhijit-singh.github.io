@@ -956,7 +956,7 @@ footer .copyright {
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+/*@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
   html {
     transform: rotate(-90deg);
     transform-origin: left top;
@@ -967,6 +967,7 @@ footer .copyright {
     left: 0;
   }
 }
+*/
 
 #wierd {
   opacity: 0.5;
