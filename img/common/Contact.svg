@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Contact</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-20" transform="translate(-304.000000, -7.000000)">
+            <g id="Group-3" transform="translate(27.000000, 7.000000)">
+                <g id="Contact" transform="translate(277.000000, 0.000000)">
+                    <rect id="Rectangle" fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="17" height="17"></rect>
+                    <path d="M15,2 C16.1045695,2 17,2.8954305 17,4 L17,13 C17,14.1045695 16.1045695,15 15,15 L2,15 C0.8954305,15 0,14.1045695 0,13 L0,4 C0,2.8954305 0.8954305,2 2,2 L15,2 Z M15,5.62885118 L10.5560941,9.81135086 C9.40094407,10.8985509 7.59905593,10.8985509 6.4439059,9.81135086 L2,5.62885118 L2,13 L15,13 L15,5.62885118 Z M13.8399089,3.99938928 L3.15869786,3.99868348 C3.23287059,4.05140575 3.3037441,4.10940621 3.3707294,4.1724512 L7.8146353,8.35495087 C8.19968531,8.71735088 8.80031469,8.71735088 9.1853647,8.35495087 L13.6292706,4.1724512 C13.6964529,4.10922076 13.7668541,4.05153916 13.8399089,3.99938928 Z" id="Combined-Shape" fill="#868D95" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
