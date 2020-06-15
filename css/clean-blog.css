@@ -703,7 +703,7 @@ footer .copyright {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 16px;
+  padding: 32px 18px;
   position: absolute;
   top: 0;
   z-index: 100;
