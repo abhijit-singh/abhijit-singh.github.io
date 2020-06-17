@@ -2300,3 +2300,15 @@ header.masthead .case-4-heading .case-subheading {
   font-weight: 700;
   opacity: 0.8;
 }
+
+
+@media only screen and (max-width: 1024px) and (min-width: 501px)  {
+  #nav-cont {
+    padding-top: 56px;
+  }
+
+  .anima, .anima-foots, #arrow-down {
+    display: none;
+  }
+
+}
