@@ -2023,11 +2023,6 @@ header.masthead .case-4-heading .case-subheading {
   }
 
 
-.four-side-button:hover {
-    background-color: #0077BD;
-    padding-right: 38px;
-    border: none;
-  }
 
 
 .four-side-button:focus {
@@ -2047,10 +2042,6 @@ header.masthead .case-4-heading .case-subheading {
     opacity: 1;
   }
 
-.four-side-button:hover > .button-icon {
-    transform: translate(8px, 0px);
-    opacity: 1;
-  }
 
 
 @media only screen and (max-width: 500px) {
@@ -2364,6 +2355,17 @@ header.masthead .case-4-heading .case-subheading {
     margin-left: -20%;
   }
 
+  .four-side-button:hover > .button-icon {
+    transform: translate(8px, 0px);
+    opacity: 1;
+  }
+.four-side-button:hover {
+    background-color: #0077BD;
+    padding-right: 38px;
+    border: none;
+  }
+
+
 
 }
 
@@ -2379,6 +2381,19 @@ header.masthead .case-4-heading .case-subheading {
 #four-oh-four h1 {
   font-size: 10em;
  }
+
+.four-side-button:hover > .button-icon {
+    transform: translate(8px, 0px);
+    opacity: 1;
+  }
+
+
+.four-side-button:hover {
+    background-color: #0077BD;
+    padding-right: 38px;
+    border: none;
+  }
+
 
 }
 
@@ -2400,6 +2415,8 @@ header.masthead .case-4-heading .case-subheading {
  #four-oh-four {
   padding-bottom: 34px;
  }
+
+
 
 }
 
